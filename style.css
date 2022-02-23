@@ -8,7 +8,7 @@
     scroll-behavior:smooth;
 }
 html{    
-    scroll-padding-top: 140px;
+    scroll-padding-top: 125px;
 }
 body{
     width: 100%;
@@ -63,7 +63,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 880px;
+    height: 600px;
 }
 .hero__item{
     flex: 1;
@@ -76,7 +76,7 @@ body{
 .bajar{
     position: absolute;
     right: 50%;
-    bottom: 90px;
+    bottom: 60px;
 }
 .bajar__marco{
     width: 100px;
@@ -142,7 +142,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 140px auto;
+    margin: 40px auto;
     flex-wrap: wrap;
     box-shadow: -5px 2px 11px 0px rgba(0,0,0,0.75);
     border: #fff;
@@ -155,7 +155,7 @@ body{
     flex: 3;
     text-align: center;
     order: 1;
-    font-size: 40pt;
+    font-size: 30pt;
     padding: 15px 25px;
 }
 .palabrasImagen img{
@@ -168,14 +168,15 @@ body{
 }
 
 .misCosas_papa{
-    margin-bottom: 60px;
+    width: 90%;
+    margin-bottom: 45px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
 }
 .misCosas_hijos{
-    max-width: 450px;
+    max-width: 425px;
     box-shadow: -5px 2px 11px 0px rgba(0,0,0,0.65);
     border: #fff;
     border-radius: 13px;
@@ -208,9 +209,9 @@ body{
 }
 .galeria__ul{
     position: relative;
-    width: 75%;
+    width: 65%;
     margin: auto;
-    height: 793px;
+    height: 670px;
 }
 .galeria__ul li{
     width: 100%;
@@ -229,7 +230,6 @@ body{
 }
 .galeria__ul img{
     width: 100%;
-    height: 793px;
     object-fit: contain;
     padding-bottom: 30px;
     background-color: #fff;

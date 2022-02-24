@@ -8,7 +8,7 @@
     scroll-behavior:smooth;
 }
 html{    
-    scroll-padding-top: 125px;
+    scroll-padding-top: 100px;
 }
 body{
     width: 100%;
@@ -40,7 +40,15 @@ body{
 
 @media only screen and (max-width: 700px){
     .header__ul{
+        width: 100%;
+        display: flex;
         justify-content: center;
+    }
+    .header__ul li{
+        padding: 0 10px;
+    }
+    .header__ul a{
+        font-size: 20px;
     }
 }
 
@@ -80,7 +88,7 @@ body{
 }
 .bajar__marco{
     width: 100px;
-    height: 121px;
+    height: 80px;
     overflow: hidden;
 }
 .bajar img{
@@ -93,7 +101,6 @@ body{
 .bajar img:hover{ 
     transform: translateY(0px);
 }
-
 .wave{
     width: 100%;
     height: 155px;
@@ -101,8 +108,47 @@ body{
     bottom: -58px;
 }
 @media only screen and (max-width: 700px){
-
+    .bajar{
+        position: absolute;
+        width: 10%;
+    }
+    .bajar__marco{
+        width: 65px;
+        height: 72px;
+        overflow: hidden;
+    }
+    .bajar img{
+        width: 100%;
+        height: 150px;
+        transform: translateY(0);
+    }
+    .bajar img:hover{     
+        transform: translateY(-73px);
+    }
+    .hero__container{
+        height: 310px;
+        display: flex;
+        flex-direction: column;
+    }.hero__item{
+        min-width: 250px;
+        padding: 0;
+    }
+    .hero__item:nth-child(2){
+        padding: 15px;
+        min-width: 350px;
+    }
+    .hero__fondo {
+        height: calc(100vh - 47px);
+        margin-bottom: 1rem;
+    }
+    .wave {
+        width: 100%;
+        height: 70px;
+        position: absolute;
+        bottom: -30px;
+    }
 }
+
 
 /* ------------------------------------titulo */
 
@@ -193,6 +239,50 @@ body{
 }
 .misCosas_hijos:hover{
     transform: scale(1.1);
+}
+@media only screen and (max-width: 700px){
+    .titulo {
+        font-size: 2.7rem;
+    }
+    .sobreMi__container {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sobreMi__container p {
+        text-align: center;
+        margin: 20px;
+    }
+    .palabrasImagen {
+        margin:20px auto;
+        flex-wrap: wrap;
+        box-shadow: -5px 2px 11px 0px rgb(0 0 0 / 75%);
+        border: #fff;
+        border-radius: 13px;
+        background-color: rgba(255, 255, 255, 0.336);
+        width: 100%;
+    }
+    .palabrasImagen p {
+        width: 100%;
+        flex: 3;
+        text-align: center;
+        order: 1;
+        font-size: 15pt;
+        padding: 0;
+        padding-top: 10px;
+    }
+    .misCosas_papa {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .misCosas_hijos p{
+        font-size: 12pt;
+    }
+    .misCosas_hijos:hover{
+        transform: scale(1);
+    }
 }
 
 /* ------------------------------------trabajos */
@@ -353,4 +443,32 @@ body{
     color: #fff;
     text-align: center;
 }
-
+@media only screen and (max-width: 700px){
+    .remera__texto {        
+        background-color: #122e5a96;
+        padding: 5px 0 10px 0;
+    }
+    .remera__texto p {
+        font-size: 16pt;
+    }
+    .subir{
+        position: absolute;
+        top: -30px;
+        right: 0px;
+    }
+    .subir__marco{
+        width: 60px;
+        height: 80px;
+        overflow: hidden;
+    }
+    .subir img{
+        width: 100%;
+        height: 164px;
+        transform: translateY(0px);
+        transition: transform 1.5s;
+        padding: 3px;
+    }
+    .subir img:hover{ 
+        transform: translateY(-112px);
+    }
+}

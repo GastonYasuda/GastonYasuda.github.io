@@ -50,9 +50,27 @@ html{
     justify-content: space-around;
 }
 .header__menu__ul li{
-    list-style: none;
+    list-style: none;  
     padding: 15px 0;
 }
+.header__menu__ul li a:hover{
+    animation: estirar 1.5s infinite;
+}
+
+@keyframes estirar{
+    0%{
+        color: #fff;
+    }
+    50%{
+        color: red;
+    }
+    100%{
+       color: #fff;
+    }
+}
+
+
+
 .header__menu__ul li a{
     color: #fff;
     text-decoration: none;
@@ -308,12 +326,13 @@ html{
     }
     .misCosas__item{
         height: auto;
+    }    
+    /* --------------------------------------TRABAJO */
+    .trabajo__container{
+        padding: 110px 155px;
     }
     .galeria__ul img{
         padding: 5px;
     }
-    /* --------------------------------------TRABAJO */
-    .trabajo__container{
-        padding: 0 155px;
-    }
+
 }

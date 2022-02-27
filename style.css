@@ -329,7 +329,7 @@ html{
     }    
     /* --------------------------------------TRABAJO */
     .trabajo__container{
-        padding: 110px 155px;
+        padding: 0px 155px 40px 155px;
     }
     .galeria__ul img{
         padding: 5px;

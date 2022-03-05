@@ -4,7 +4,7 @@
     scroll-behavior: smooth;
 }
 html{
-    scroll-padding-top: 130px;
+    scroll-padding-top: 50px;
 }
 
 /* -------------------------------------------TITULO  */
@@ -130,7 +130,7 @@ html{
     height: 100%;
     margin: 0 auto;
     margin-top: 10px;
-    margin-bottom: 90px;
+    margin-bottom: 70px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -150,65 +150,47 @@ html{
     margin-bottom: 10px;
 }
 /* ------------------------------------trabajos */
-.trabajos{
-    width: 100%;
-    margin-bottom: 60px;
-    position: relative;
-    margin-top: 10px;
+
+.carrousel{
+    margin: auto ;
+    margin-top: 20px;
+    width: 50%;
+    min-width: 350px;
+    overflow: hidden;
 }
-.trabajo__container{
-    width: 80%;
-    margin: 0 auto;
+.grande{
+    width: 1200%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
 }
-.galeria__ul{
-    position: relative;
-    width: 100%;
-    margin: auto;
-    height: 442px;
+.imagen{
+    width: calc(100% / 12);
+    min-height: 10vh;
 }
-.galeria__ul li{
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    opacity: 0;
-    position: absolute;
-    list-style: none;    
-}
-.galeria__ul li:first-child{
-    opacity: 1;
-}
-.galeria__ul li:target{
-    opacity: 1;
-}
-.galeria__ul img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    padding-bottom: 30px;
-    background-color: #fff;
-}
-.galeria__menu_ul{
-    width: 100%;
-    margin: 0;
+.menu{
+    margin-bottom: 28px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-.galeria__menu_ul li{
-    margin: 5px;
-    transition: transform .8s;
+    align-items: center;
     list-style: none;
-    width: 50px;
-    height: 50px;
-    padding: 0 1px;
 }
-.galeria__menu_ul li:hover{
+.boton{
+    margin: 5px;
+    margin-top: 10px;
+}
+.boton.active{
+    border-radius: 50%;
     transform: scale(1.2);
+    transition: transform .5s;
 }
-.galeria__menu_ul img{
+.boton img{
     width: 100%;
     height: 100%;
-    border-radius: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 /* ------------------------------------remeras */
 .wave_2{
@@ -296,7 +278,7 @@ html{
 }
 @media screen and (min-width: 800px) {
     html{
-        scroll-padding-top: 60px;
+        scroll-padding-top: 80px;
     }
     /* --------------------------------------HERO */
     .hero__container{
@@ -327,12 +309,6 @@ html{
     .misCosas__item{
         height: auto;
     }    
-    /* --------------------------------------TRABAJO */
-    .trabajo__container{
-        padding: 0px 155px 40px 155px;
-    }
-    .galeria__ul img{
-        padding: 5px;
-    }
+
 
 }

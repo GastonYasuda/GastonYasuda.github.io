@@ -159,14 +159,14 @@ html{
     overflow: hidden;
 }
 .grande{
-    width: 1200%;
+    width: 1300%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
 }
 .imagen{
-    width: calc(100% / 12);
+    width: calc(100% / 13);
     min-height: 10vh;
 }
 .menu{

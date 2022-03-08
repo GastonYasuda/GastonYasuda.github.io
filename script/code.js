@@ -4,7 +4,7 @@ const boton  = document.querySelectorAll('.boton');
 boton.forEach ( (cadaBoton , i) =>{
     boton[i].addEventListener ('click' , ()=>{
         let position = i;
-        let operacion = i * (-100/12);
+        let operacion = i * (-100/13);
 
         grande.style.transform = `translateX( ${operacion}% )`;
         

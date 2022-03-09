@@ -177,6 +177,7 @@ html{
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
+    transition: .8s ease-in-out;
 }
 .imagen{
     width: calc(100% / 13);

@@ -148,6 +148,7 @@ html{
     background-attachment: fixed;
     background-size:cover;
     border-radius: 8px;
+    cursor: pointer;
 }
 .hacheDos{
     margin-bottom: 10px;

@@ -177,16 +177,20 @@ html{
     overflow: hidden;
 }
 .grande{
-    width: 1300%;
+    width: 1400%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
     transition: .8s ease-in-out;
 }
+
 .imagen{
-    width: calc(100% / 13);
+    width: calc(100% / 14);
     min-height: 10vh;
+}
+.imagen.video{
+    
 }
 .menu{
     margin-bottom: 28px;

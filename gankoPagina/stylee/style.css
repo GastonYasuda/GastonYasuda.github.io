@@ -1,0 +1,224 @@
+/* font-family: 'Epilogue', 'sans-serif';
+font-family: 'Lobster', 'cursive'; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', 'sans-serif';
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #eeeeee;
+    width: 100%;
+}
+/* ------------------------------------------CABECERA */
+header{
+    position: relative;
+    width: 100%;
+}
+.navBar{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px -1px rgba(0,0,0,0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    position: relative;
+}
+.logo{
+    width: 160px;
+}
+.menuIcono  img{
+    width: 40px;
+}
+.secondNav{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 10px 19px -1px rgba(0,0,0,0.25); 
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* ------------------------------------------HERO */
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero img{
+    width: 100%;
+}
+.botones{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 30px;
+}
+.botones a{
+    background-color: #E58134;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;    
+    font-family: 'Lobster', 'cursive';
+    font-size: 2em;
+    cursor: pointer;
+}
+/* ------------------------------------------TITULOS */
+.titulo{
+    background-color: #E58134;
+    box-shadow: 0px 10px 19px -1px rgba(0,0,0,0.25); 
+    padding: 10px;
+    font-family: 'Lobster', 'cursive';
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+/* ------------------------------------------NUESTRO MENU */
+.nuestroMenu{
+    margin-top: 30px;
+    position: relative;
+}
+.nuestroMenuCosas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.tituloPlatos{
+    width: 100%;
+    height: 130px;
+    position: relative;
+}
+.tituloPlatos img{
+    width: 20%;
+    position: absolute;
+    margin-top: 10px;
+    filter: drop-shadow(0px 5px 3px rgba(0,0,1,0.6));
+
+}
+.tituloPlatos.roll img{
+    width: 100px;
+    padding-left: 13px;
+}
+.tituloPlatos.combinados img{
+    width: 180px;
+}
+.tituloPlatos.niguiri img{
+    width: 130px;
+    padding-left: 13px;
+}
+.tituloPlatos.sashimi img{
+    width: 130px;
+    padding-left: 13px;
+}
+.tituloPlatos.geisha img{
+    width: 100px;
+    padding-left: 13px;
+}
+.tituloPlatos.temaki img{
+    transform: scaleX(-1);
+    width: 90px;
+}
+
+
+.tituloPlatos h3{
+    width: 90%;
+    background-color: #EE9451;
+    color: #fff;
+    position: absolute;
+    top: 50px;
+    text-align: end;
+    padding: 10px 15px;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 0px 10px 19px -1px rgba(0,0,0,0.25); 
+}
+
+
+.lasComidas{
+    max-height: 0;      
+    overflow: hidden;  
+    transition: all .7s ease-in-out;
+
+}
+.lasComidas.active{
+   max-height: 200px; /*-------PONER MAS LARGO SI ES NECESARIO-------*/
+}
+.comida{
+    margin: 0 15px 15px 50px;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------------VISITANOS */
+.visitanos{
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+}
+/* ------------------------------------------CONTACTO */
+.contacto{
+    margin-top: 30px;
+    width: 100%;
+    background-color: #312F38;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.telefono{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.7em;
+    margin: 30px 0 0;
+}
+.seguinos{
+    display: flex;
+    flex-direction: column;   
+    margin: 20px 0;
+    align-items: center;
+}
+.seguinos h4{
+    font-family: 'Lobster', 'cursive';
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.instaGrupo a{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+.instaGrupo img{
+    width: 50px;
+}
+.instaGrupo p{
+    font-size: 1.6em;
+    padding-left: 15px;
+}
+.horario{
+    text-align: center;
+    margin: 20px;
+}
+.envio{
+    text-align: center;
+    margin: 0 20px 20px;
+}
+
+/* ------------------------------------------FOOTER */
+footer{
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #1D1C21;
+}

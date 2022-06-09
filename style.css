@@ -6,11 +6,6 @@
 html{
     scroll-padding-top: 50px;
 }
-body{
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-}
 /* -------------------------------------------TITULO  */
 .titulo{
     font-size: 25pt;

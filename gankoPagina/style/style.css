@@ -1,13 +1,17 @@
 *{
     font-family: 'Roboto', sans-serif;
-    color: #525252;
-    background-color: #0000;
+    /* color: #525252; */
 }
 
 body{
     background-color: #f2F2F2;
     height: 100%;
 
+}
+.enConstruccion{
+    background-color: #000;
+    color: yellow;
+    text-align: center;    
 }
 .navigation{
     width: 100%; 

@@ -6,7 +6,11 @@
 html{
     scroll-padding-top: 50px;
 }
-
+body{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
 /* -------------------------------------------TITULO  */
 .titulo{
     font-size: 25pt;
@@ -48,6 +52,7 @@ html{
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
+    
 }
 .header__menu__ul li{
     list-style: none;  

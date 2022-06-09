@@ -1,7 +1,9 @@
 *{
     font-family: 'Roboto', sans-serif;
     color: #525252;
+    background-color: #0000;
 }
+
 body{
     background-color: #f2F2F2;
     height: 100%;
@@ -33,7 +35,7 @@ body{
 .platos{
     margin: 15px 0;
     background-color: #ffff;
-    box-shadow: inset 0px 5px 5px -1px rgba(0,0,0,0.18)    ;
+    box-shadow: inset 0px 5px 5px -1px rgba(0,0,0,0.18);
     width: 100%;
     height: 40px;
     display: flex;

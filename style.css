@@ -51,7 +51,7 @@ html{
 }
 .header__menu__ul li{
     list-style: none;  
-    padding: 15px 0;
+    padding: 10px 0px;
 }
 
 
@@ -284,6 +284,13 @@ html{
 @media screen and (min-width: 800px) {
     html{
         scroll-padding-top: 80px;
+    }
+    /* --------------------------------------HEDER*/
+    .header__menu__ul{
+        justify-content: center;
+    }
+    .header__menu__ul li{
+        padding: 10px 20px;
     }
     /* --------------------------------------HERO */
     .hero__container{

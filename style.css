@@ -47,7 +47,7 @@ html{
     width: 90%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .header__menu__ul li{
     list-style: none;  
@@ -288,7 +288,7 @@ html{
     /* --------------------------------------HERO */
     .hero__container{
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
     .hero__item:last-child{
         max-width: 700px;
@@ -303,7 +303,7 @@ html{
         max-width: 350px;
     }
     .palabras__txt{
-        font-size: 20pt;
+        font-size: 14pt;
     }
     /* --------------------------------------SOBRE MI */
     .misCosas{

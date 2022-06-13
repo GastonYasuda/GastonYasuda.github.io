@@ -1,6 +1,7 @@
 *{
     font-family: 'Roboto', sans-serif;
-    /* color: #525252; */
+    color: #525252;
+    text-decoration: none;
 }
 
 body{
@@ -70,7 +71,7 @@ body{
 }
 .item{
     width: 80%;
-    margin: 60px auto 0;
+    margin: 70px auto 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -92,26 +93,60 @@ body{
     justify-content: space-evenly;
     width: 80%;
 }
+.tipos_item{
+    display: inline;
+}
 .tipos_cont{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.item_rolls{
-    width: 80%;
+.rolls{
+    width: 100%;
     margin: 70px auto 0;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-.tipos_rolls{
-    width: 80%;
     text-align: center;
 }
-.tipos_rolls img{
-    width: 70%;
-    margin-top: 40px;
+.grid_rolls_p{
+    width: 90%;
+    margin: 30px auto 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 35px;
+}
+.grid_rolls_h{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.grid_rolls_h img{
+    width: 100%;
+    height: auto;
+}
+.grid_rolls_h_kawa h2{
+    margin-top: 26px;
+}
+.kawa_img{
+    width: 100%;
+    height: auto;
+}
+.rollsCrocantes{
+    width: 80%;
+    margin: 70px auto 0;
+    text-align: center;
+}
+.rollsCrocantes_p{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.rollsCrocantes_h:nth-child(1){
+    flex: 1;
+}
+.rollsCrocantes_h:nth-child(2){
+    flex: 2;
+    text-align: left;
+    margin-left: 10px;
 }
 .rollsEspeciales{
     width: 80%;
@@ -147,14 +182,13 @@ body{
     margin-top: 3px;
 }
 .item_caliente{
-    width: 80%;
-    margin: 70px auto 0;
-}
-.item_caliente h1, h2{
+    margin-top: 70px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 .tipos_caliente{
-    margin: 30px auto 0;
+    margin: 70px auto 0;
     width: 80%;
 }
 .ingredientes{
@@ -163,10 +197,92 @@ body{
     justify-content: space-around;
     padding: 5px;
 }
+.combVege{
+    margin-top: 30px;
+}
+.combVege p{
+    text-align: right;
+}
+.rollsVegetariano{
+    width: 100%;
+    margin: 70px auto 0;
+    text-align: center;
+}
 
-
-
-
+.rollsVegetariano_p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rollsVegetariano_h{
+    width: 100%;
+}
+.rollsVegetariano_h:nth-child(1){
+    flex: 3;
+}
+.rollsVegetariano_h:nth-child(2){
+    flex: 1;
+    text-align: left;
+    margin-left: 5px;
+}
+.crocanteVegetariano{
+    width: 90%;
+    margin: 70px auto 0;
+    text-align: center;
+}
+.crocanteVegetariano_p{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.crocanteVegetariano_p img{
+    margin: -15px auto;
+}
+.crocanteVegetariano_temaki img{
+    margin: -5px auto;
+}
+.mediodia{
+    width: 100%;
+    background-color: #DDE2A4;
+    margin-top: 40px;
+    padding-top: 30px;
+    text-align: center;
+}
+.mediodia_p{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.mediodia_h:nth-child(1){
+    flex: 3;
+}
+.mediodia_h:nth-child(2){
+    flex: 2;
+    text-align: left;
+    margin-left: 5px;
+    align-self: center;
+}
+.mediodia h3{
+    padding-bottom: 20px;
+}
+.sinTacc{
+    padding: 30px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sinTacc img{
+    width: 30%;
+    margin: 0 auto 20px;
+}
+.sinTacc h2{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
 
 
 
@@ -282,16 +398,6 @@ body{
     text-decoration: none;
     font-size: 22px;
 }
-
-
-
-
-
-
-
-
-
-
 .realFooter{
     background-color: #525252;
     padding: 7px;

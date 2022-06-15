@@ -116,17 +116,10 @@ body{
 .grid_rolls_h{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-content: center;
 }
 .grid_rolls_h img{
-    width: 100%;
-    height: auto;
-}
-.grid_rolls_h_kawa h2{
-    margin-top: 26px;
-}
-.kawa_img{
     width: 100%;
     height: auto;
 }

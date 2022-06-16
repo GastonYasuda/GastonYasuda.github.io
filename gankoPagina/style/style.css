@@ -1,13 +1,15 @@
 *{
     font-family: 'Roboto', sans-serif;
-    color: #525252;
     text-decoration: none;
 }
-
+html{
+    scroll-behavior: smooth;
+    scroll-margin-inline-start: 40px;
+}
 body{
     background-color: #f2F2F2;
     height: 100%;
-
+    color: #525252;
 }
 .enConstruccion{
     background-color: #000;
@@ -202,14 +204,21 @@ body{
     margin-left: 12px;
     padding: 10px 0 ;
 }
-.combi h3{
+.nombreCombi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: #02f4f4;
     width: 100%;
-    color: #fff;
     padding: 6px;
     border-radius: 10px 10px 0 0;
 }
-
+.nombreCombi:nth-child(1){    
+    color: #fff;
+}
+.nombreCombi:nth-child(2){
+    color: #fff;
+}
 
 
 
